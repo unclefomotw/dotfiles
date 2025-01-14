@@ -1,0 +1,4 @@
+[alias]
+	l = log --oneline --decorate --all --graph
+	co = checkout
+	tags = tag -l --sort=v:refname
