@@ -2,3 +2,8 @@
 	l = log --oneline --decorate --all --graph
 	co = checkout
 	tags = tag -l --sort=v:refname
+[init]
+	defaultBranch = main
+[user]
+	email =
+	name =
