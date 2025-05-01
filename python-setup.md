@@ -20,3 +20,8 @@ ln -s /Users/uu/.local/venvs/default-3.12.8/bin/python python
 ln -s /Users/uu/.local/venvs/default-3.12.8/bin/pip pip
 ln -s /Users/uu/.local/venvs/default-3.12.8/bin/pip3 pip3
 ```
+
+* pipx https://pipx.pypa.io/stable/installation/ 
+* poetry https://python-poetry.org/ 
+    * poetry config virtualenvs.in-project true
+* uv https://github.com/astral-sh/uv 
