@@ -41,6 +41,9 @@ alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
 
+fpath+=~/.zfunc
+autoload -Uz compinit && compinit
+
 export EDITOR=vim
 export VISUAL=vim
 
